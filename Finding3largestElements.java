@@ -45,4 +45,29 @@ class PrintLargest {
 		print3largest(arr, n);
 	}
 }
+//METHOD---2
+// java program to find
+// three largest elements
+// in array.
+import java.io.*;
+import java.util.Arrays;
+class GFG{
+public static void main(String[] args)
+{
+	int[] V = { 11, 65, 193, 36, 209, 664, 32 };
+
+	// sorting the array
+	Arrays.sort(V);
+
+	// taking the length of array
+	int x = V.length;
+
+	System.out.println("first = " + V[x-1] );
+	System.out.println("second = " + V[x-2]);
+	System.out.println("third = " + V[x-3] );
+
+}
+}
+
+
 
