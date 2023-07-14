@@ -2,7 +2,7 @@
 // element in an array
 import java.io.*;
 
-class GFG{
+class Array{
 
 // Function to print the second largest elements
 static void print2largest(int arr[], int arr_size)
